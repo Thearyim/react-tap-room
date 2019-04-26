@@ -3,8 +3,8 @@ import React from  'react';
 function Header() {
   var headerStyle={
     display: "inline-block",
-    color: "blue",
-  }
+    color: "blue"
+  };
   return(
     <div>
       <h1 style={headerStyle}>Tap Room</h1>
