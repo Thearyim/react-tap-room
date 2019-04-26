@@ -1,9 +1,9 @@
-import React from  'react';
+import React from 'react';
 
 function Header() {
   var headerStyle={
-    display: "inline-block",
-    color: "blue"
+    color: 'blue',
+    textAlign: 'center',
   };
   return(
     <div>

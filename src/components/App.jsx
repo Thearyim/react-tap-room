@@ -1,10 +1,17 @@
-import React from "react";
-import Header from "./Header";
-function App(){
+import React from 'react';
+import Header from './Header';
+import Body from './Body';
 
-  return (
+function App(){
+  var appStyle={
+    paddingTop: '50px'
+  }
+  return(
     <div>
       <Header/>
+      <div>
+        <Body/>
+      </div>
     </div>
   );
 }
