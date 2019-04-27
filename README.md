@@ -1,15 +1,12 @@
 # _Tap Room_
+#### By _**Theary Im**_
 
 #### _A web application using React, Created 04/26/2019_
 
-#### By _**Theary Im**_
-
 ## Description
 _A web application for a bar to track their kegs._
-
-## Component Structure
-
-![Component Diagram](https://github.com/Thearyim/react-tap-room/blob/master/src/assets/documentation/ComponentDiagram.PNG)
+**Differences between Angular and React:**
+. Angular uses two directional data flow process where it updates the real DOM directly while React updates only the virtual DOM and is concerned with the one directional data flow.
 
 ## Specs
 1. A user can see a list/menu of all available kegs. For each keg, a user can see its name, brand, price and alcohol content.
@@ -19,6 +16,12 @@ _A web application for a bar to track their kegs._
 5. A user can see the kegs with less than 10 pints left so they can be ready to change them.
 6. The kegs are color-coded based on price.
 7. The kegs are color-coded based on the alcohol content.
+
+## Component Structure
+![Component Diagram](https://github.com/Thearyim/react-tap-room/blob/master/src/assets/documentation/ComponentDiagram.PNG)
+
+## Notes
+**Unforseen issues**  
 
 ## Setup/Installation Requirements
 * Download and install Node.js
