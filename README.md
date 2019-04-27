@@ -9,7 +9,7 @@ _A web application for a bar to track their kegs._
 
 ## Component Structure
 
-![Component Diagram](./src/assets/documentation/ComponentDiagram.png)
+![Component Diagram](https://github.com/Thearyim/react-tap-room/blob/master/src/assets/documentation/ComponentDiagram.PNG)
 
 ## Specs
 1. A user can see a list/menu of all available kegs. For each keg, a user can see its name, brand, price and alcohol content.
