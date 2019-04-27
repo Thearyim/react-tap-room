@@ -15,10 +15,8 @@ Angular uses two directional data flow process where it updates the real DOM dir
 5. A user can see the kegs with less than 10 pints left so they can be ready to change them.
 6. The kegs are color-coded based on price.
 7. The kegs are color-coded based on the alcohol content.
-
 ## Component Structure
 ![Component Diagram](https://github.com/Thearyim/react-tap-room/blob/master/src/assets/documentation/ComponentDiagram.PNG)
-
 ## Notes
 **Unforseen issues**  
 
