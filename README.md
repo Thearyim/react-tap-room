@@ -1,10 +1,11 @@
-# _Tap Room_
-#### By _**Theary Im**_
+# Tap Room
+#### By **Theary Im**
 
 #### _A web application using React, Created 04/26/2019_
 
 ## Description
-_A web application for a bar to track their kegs._
+A web application for a bar to track their kegs.
+
 **Differences between Angular and React:**
 . Angular uses two directional data flow process where it updates the real DOM directly while React updates only the virtual DOM and is concerned with the one directional data flow.
 
