@@ -4,8 +4,8 @@
 ## Description
 A web application for a bar to track their kegs.
 
-_**Note on the differences between Angular and React: **_
-Angular uses two directional data flow process where it updates the real DOM directly while React updates only the virtual DOM and is concerned with the one directional data flow.
+_**Note on the differences between Angular and React:**_
+ Angular uses two directional data flow process where it updates the real DOM directly while React updates only the virtual DOM and is concerned with the one directional data flow.
 
 ## Specs
 1. A user can see a list/menu of all available kegs. For each keg, a user can see its name, brand, price and alcohol content.
