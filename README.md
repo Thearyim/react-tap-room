@@ -7,6 +7,10 @@
 ## Description
 _A web application for a bar to track their kegs._
 
+## Component Structure
+
+![Component Diagram](./src/assets/documentation/ComponentDiagram.png)
+
 ## Specs
 1. A user can see a list/menu of all available kegs. For each keg, a user can see its name, brand, price and alcohol content.
 2. A user can fill out a form when they tap a new keg to add it to the list.
