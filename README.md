@@ -5,7 +5,9 @@
 A web application for a bar to track their kegs.
 
 _**Note on the differences between Angular and React:**_
- Angular uses two directional data flow process where it updates the real DOM directly while React updates only the virtual DOM and is concerned with the one directional data flow.
+
+. Angular uses two directional data flow process where it updates the real DOM directly while React updates only the virtual DOM and is concerned with the one directional data flow.
+. Both Angular and React are made of components. Components in React take in arguments and return value like functions. Components in React also allows us to add html text and styling whereas components in Angular have units that contain business, user interface logic, HTML and CSS.
 
 ## Specs
 1. A user can see a list/menu of all available kegs. For each keg, a user can see its name, brand, price and alcohol content.
@@ -28,7 +30,7 @@ _**Note on the differences between Angular and React:**_
 * Run the command $ npm run start to start the application
 
 ## Support and contact details
-_If you run into any issues or have questions, ideas or concerns. Please contact me at thearyim@gmail.com_
+_If you run into any issues or have questions/ideas, please contact me at thearyim@gmail.com_
 
 ## Technologies Used
 * React
