@@ -1,6 +1,10 @@
 import React from 'react';
 import Header from './Header';
-import Body from './Body';
+import KegList from './KegList';
+import { Switch, Route } from "react-router-dom";
+import Home from "./Home";
+import NewKeg from "./NewKeg";
+import Error404 from "./Error404";
 
 function App(){
   var appStyle={
@@ -9,9 +13,12 @@ function App(){
   return(
     <div>
       <Header/>
-      <div>
-        <Body/>
-      </div>
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route path='/allkegs' component={KegList} />
+        <Route path='/newkeg' component={NewKeg} />
+        <Route component={Error404} />
+      </Switch>
     </div>
   );
 }

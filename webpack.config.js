@@ -52,9 +52,9 @@ module.exports = {
         options: {
           limit: 8000,
           name: 'images/[hash]-[name].[ext]'
-          }
         }
       }
+    }
     ]
   },
 
