@@ -4,19 +4,19 @@
 ## Description
 A web application for a bar to track their kegs.
 
-_**Note on the differences between Angular and React:**_
+**Note on the differences between Angular and React:**
 
 * > Angular uses two directional data flow process where it updates the real DOM directly while React updates only the virtual DOM and is concerned with the one directional data flow.
 * > Both Angular and React are made of components. Components in React take in arguments and return value like functions. Components in React also allows us to add html text and styling whereas components in Angular have units that contain business, user interface logic, HTML and CSS.
 
 ## Specs
-1. A user can see a list/menu of all available kegs. For each keg, a user can see its name, brand, price and alcohol content.
-2. A user can fill out a form when they tap a new keg to add it to the list.
-3. A user can edit a keg's properties after entering them in the case mistake was made.
-4. A user can click a button next to a keg whenever they sell a pint of it. The number of pints will decrease by 1.
-5. A user can see the kegs with less than 10 pints left so they can be ready to change them.
-6. The kegs are color-coded based on price.
-7. The kegs are color-coded based on the alcohol content.
+1. > A user can see a list/menu of all available kegs. For each keg, a user can see its name, brand, price and alcohol content.
+2. > A user can fill out a form when they tap a new keg to add it to the list.
+3. > A user can edit a keg's properties after entering them in the case mistake was made.
+4. > A user can click a button next to a keg whenever they sell a pint of it. The number of pints will decrease by 1.
+5. > A user can see the kegs with less than 10 pints left so they can be ready to change them.
+6. > The kegs are color-coded based on price.
+7. > The kegs are color-coded based on the alcohol content.
 ## Component Structure
 ![Component Diagram](https://github.com/Thearyim/react-tap-room/blob/master/src/assets/documentation/ComponentDiagram.PNG)
 ## Notes
