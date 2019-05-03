@@ -1,6 +1,13 @@
 import React from 'react';
 
-class NewTicketControl extends React.component {
+class NewKegControl extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      formVisibleOnPage: false
+    };
+  }
 
   render(){
     return (
