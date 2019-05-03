@@ -25,4 +25,4 @@ function NewKeg(){
   );
 }
 
-export default NewKeg;
+export default NewKegForm;
