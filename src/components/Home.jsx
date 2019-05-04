@@ -10,7 +10,7 @@ function Home() {
       Welcome!
 
       <Link to="/allkegs"><button>All Keg</button></Link>
-      <Link to="/newkeg"><button>New keg</button></Link>
+      <Link to="/newkeg"><button>New/Edit keg</button></Link>
     </div>
   );
 }
