@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function ConfirmationQuestions() {
+function ConfirmationQuestions(props) {
   return (
     <div>
       <p>Is this a brand new keg?</p>

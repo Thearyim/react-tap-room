@@ -8,7 +8,7 @@ function Home() {
   return(
     <div style={homeStyle}>
       Welcome!
-
+      <Link to="/">Home</Link>
       <Link to="/allkegs"><button>All Keg</button></Link>
       <Link to="/newkeg"><button>New/Edit keg</button></Link>
     </div>

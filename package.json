@@ -1,5 +1,5 @@
 {
-  "name": "create-tap-room",
+  "name": "react-tap-room",
   "version": "1.0.0",
   "description": "A webpage to practice React",
   "main": "index.js",
@@ -10,10 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "moment": "^2.18.1",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-router-dom": "^4.0.0"
+    "react-router-dom": "^4.0.0",
+    "uuid": "^3.2.1"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
