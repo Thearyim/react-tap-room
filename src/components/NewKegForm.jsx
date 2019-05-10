@@ -28,13 +28,13 @@ export default function NewKegForm(props) {
   return (
     <div>
       <form onSubmit={handleNewKegFormSubmission}>
-        <input type='text' id='name' placeholder='Beer Name' ref={(input) => {_name = input;}}/>
+        <input type='text' value='TestBeer' id='name' placeholder='Beer Name' ref={(input) => {_name = input;}}/>
 
-        <input type='text' id='brand' placeholder='Beer Brand' ref={(input) => {_brand = input;}}/>
+        <input type='text' value='TestBrand' id='brand' placeholder='Beer Brand' ref={(input) => {_brand = input;}}/>
 
-        <input type='text 'id='price' placeholder='Price per Pint' ref={(input) => {_price = input;}}/>
+        <input type='text' value='22' id='price' placeholder='Price per Pint' ref={(input) => {_price = input;}}/>
 
-        <input type="text" id="alcoholContent" placeholder='Alcohol Content' ref={(input) => {_alcoholContent = input;}}/>
+        <input type="text" value='3.3' id="alcoholContent" placeholder='Alcohol Content' ref={(input) => {_alcoholContent = input;}}/>
 
         <button type='submit'>Submit</button>
       </form>
